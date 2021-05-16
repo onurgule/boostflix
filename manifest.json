@@ -1,0 +1,27 @@
+{
+    "name": "Boostflix",
+    "version": "1.0.2",
+    "description": "Netflix Booster",
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "background": {
+        "scripts": ["src/js/background.js"],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/videospeed16.png",
+            "32": "images/videospeed32.png",
+            "64": "images/videospeed64.png",
+            "128": "images/videospeed128.png"
+        }
+    },
+    "icons": {
+        "16": "images/videospeed16.png",
+        "32": "images/videospeed32.png",
+        "64": "images/videospeed64.png",
+        "128": "images/videospeed128.png"
+    },
+    "options_page": "options.html",
+    "manifest_version": 2
+}
